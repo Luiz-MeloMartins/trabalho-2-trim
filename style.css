@@ -1,0 +1,184 @@
+
+:root{
+    --cor-de-fundo: #482813;
+    --branco-principal: #FFFFFF;
+    --fundo-degrade: #482813,#B58D73;
+}
+body{
+    background-color: #9997a5;
+}
+header{
+    display: flex;
+}
+.cabecalho{
+    background-color: #9997a5;
+    color: #0a0a0c;
+    font-size: 15px;
+    text-align: justify; 
+}
+
+.cabecalho__logo{
+    width: 128px;
+    height: 128px;
+    padding: 1em;
+}
+
+.cabecalho__texto{
+    font-size: 15px;
+}
+
+.tema{
+    display: inline-flex; 
+}
+
+.brigadeiropanela{
+    width: 50%;
+    margin: 2em;  
+}
+.ingredientes{
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin: 2em;  
+}
+
+.texto{
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+.tema__titulo{
+    color: #0a0a0c;
+    font-size: 48px;
+}
+.tema__preparo{
+    color: #0a0a0c;
+    font-size: 40px;
+}
+.tema__descricao{
+    color: #0a0a0c;
+    font-size: 30px;
+    line-height: 2em;   
+}
+.tema__ingredientes{
+    color: #111110;
+    font-size: 30px;
+    line-height: 3em;   
+}
+.tema__mdpreparo{
+    color: var#0a0a0c;
+    font-size: 30px;
+    line-height: 3em;
+}
+
+
+@media screen and (max-width: 820px) {
+    .ingredientes{
+        width: 50%;
+        margin: 2em;
+    }
+    body{
+        background-color: #B58D73;
+    }
+    .cabecalho{
+        background-color: #B58D73;
+        color: var(--branco-principal);
+        font-size: 15px;
+        text-align: justify;
+    }
+    .tema__titulo{
+        color: var(--branco-principal);
+        font-size: 48px;
+    }
+    .tema__preparo{
+        color: var(--branco-principal);
+        font-size: 40px;
+    }
+    .tema__descricao{
+        color: var(--branco-principal);
+        font-size: 30px;
+        line-height: 2em;   
+    }
+    .tema__ingredientes{
+        color: #fff1ea;
+        font-size: 30px;
+        line-height: 3em;   
+    }
+    .tema__mdpreparo{
+        color: var(--branco-principal);
+        font-size: 30px;
+        line-height: 3em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        background-color:#482813;
+    }
+    header{
+        display: flex;
+    }
+    .cabecalho{
+        background-color: var(--cor-de-fundo);
+        color: var(--branco-principal);
+        font-size: 15px;
+        text-align: justify; 
+    }
+    
+    .cabecalho__logo{
+        width: 128px;
+        height: 128px;
+        padding: 1em;
+    }
+    
+    .cabecalho__texto{
+        font-size: 15px;
+    }
+    
+    .tema{
+        display: inline-flex; 
+    }
+    
+    .brigadeiropanela{
+        width: 50%;
+        margin: 2em;  
+    }
+    .ingredientes{
+        object-fit: cover;
+        width: auto;
+        height: auto;
+        margin: 2em;  
+    }
+    
+    .texto{
+        display: inline-block;
+        text-align: center;
+        margin: 1em;
+    }
+    
+    .tema__titulo{
+        color: var(--branco-principal);
+        font-size: 48px;
+    }
+    .tema__preparo{
+        color: var(--branco-principal);
+        font-size: 40px;
+    }
+    .tema__descricao{
+        color: var(--branco-principal);
+        font-size: 30px;
+        line-height: 2em;   
+    }
+    .tema__ingredientes{
+        color: #fff1ea;
+        font-size: 30px;
+        line-height: 3em;   
+    }
+    .tema__mdpreparo{
+        color: var(--branco-principal);
+        font-size: 30px;
+        line-height: 3em;
+    }
+}
+
